@@ -28,12 +28,12 @@ if sys.version_info[:2] == (2, 6):
     install_requires.append('unittest2')
 
 setup(
-    name = 'elasticsearch',
+    name = 'elasticsearch-dd',
     description = "Python client for Elasticsearch",
     license="Apache License, Version 2.0",
     url = "https://github.com/elastic/elasticsearch-py",
     long_description = long_description,
-    version = __versionstr__,
+    version = "5.3.0+dd.1",
     author = "Honza Král",
     author_email = "honza.kral@gmail.com",
     packages=find_packages(
